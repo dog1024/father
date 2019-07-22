@@ -1,0 +1,4 @@
+zuul:
+  routes:
+    provider-server: /provider-server/**
+    client-server: /client-server/**

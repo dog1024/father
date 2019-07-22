@@ -4,6 +4,13 @@ server:
 spring:
   application:
     name: config-server
+    #本地仓库的git uri设置
+  cloud:
+    config:
+      server:
+        git:
+          uri: fiel:///${user.dir}/src/main/resources/configs
+
 
 
 eureka:
