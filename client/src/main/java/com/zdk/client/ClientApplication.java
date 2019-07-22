@@ -12,6 +12,7 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("aa.properties")
 public class ClientApplication {
 
+
     public static void main(String[] args) {
         SpringApplication.run(ClientApplication.class, args);
     }

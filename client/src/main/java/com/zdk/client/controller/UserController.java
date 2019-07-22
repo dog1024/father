@@ -16,14 +16,12 @@ public class UserController {
     @Autowired
     private IUserService userService;
 
-    @Value("${name}")
-    private String name;
 
     @GetMapping("/findAll")
-    public List<User> findAll(){
+    public List<User> findAll(String name){
 
         System.out.println(name);
-       return  userService.findAll();
+       return  userService.findAll(name);
     }
 
 }

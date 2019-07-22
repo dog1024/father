@@ -1,0 +1,15 @@
+#配置客户端应用名称zuul,可当前服务名为zuul-server
+spring:
+  cloud:
+    config:
+      name: zuul
+      #profile是激活配置
+      profile: prod
+      #label在git指的分支名称
+      label: master
+      #采用discovery连接方式
+      #激活discovery连接配置选项
+      discovery:
+        enabled: true
+        #配置config server应用名称
+        serviceId:
