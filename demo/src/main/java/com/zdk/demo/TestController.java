@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class TestController {
 
-    @Value("${myname}")
-    private String name;
-
-    @RequestMapping("/test")
-    public String test(){
-        return this.name;
-    }
+//    @Value("${myname}")
+//    private String name;
+//
+//    @RequestMapping("/test")
+//    public String test(){
+//        return this.name;
+//    }
 }
