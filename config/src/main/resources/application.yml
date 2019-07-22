@@ -1,4 +1,3 @@
-
 server:
   port: 5050
 spring:
@@ -10,8 +9,6 @@ spring:
       server:
         git:
           uri: fiel:///${user.dir}/src/main/resources/configs
-
-
 
 eureka:
   client:
