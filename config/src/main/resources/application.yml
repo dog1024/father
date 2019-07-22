@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: fiel:///${user.dir}/src/main/resources/configs
+          uri: file:///${user.dir}/src/main/resources/configs
 
 eureka:
   client:

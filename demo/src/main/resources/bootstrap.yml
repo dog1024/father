@@ -17,3 +17,8 @@ spring:
         enabled: true
         #配置config server应用名称
         serviceId: config-server
+
+#是否需要权限拉去，默认是true,如果不false就不允许你去拉取配置中心Server更新的内容
+#management:
+#  security:
+#    enabled: false
